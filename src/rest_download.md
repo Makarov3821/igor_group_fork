@@ -26,7 +26,7 @@
 
 ---
 
-## ⬇️ Download Links
+## ⬇️ Download Links and Counts
 
 ### Docker Container Image
 - **Filename**: `rest_2025.01.tar.gz`
@@ -40,9 +40,20 @@
 - **Format**: Singularity/Apptainer container (.sif)
 - **Download**: [rest_2025.01.sif](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/apptainer/rest_2025.01.sif)
 
+### Conda
+![](https://anaconda.org/restgroup/rest/badges/latest_release_date.svg) 
+![](https://anaconda.org/restgroup/rest/badges/downloads.svg)
+
 ---
 
 ## 🔧 Quick Installation Commands
+
+### Conda Installation
+```bash
+conda create -n rest python=3.11 -c conda-forge
+conda activate rest
+conda install rest -c restgroup -c mokit -c conda-forge
+```
 
 ### Docker Installation
 ```bash
