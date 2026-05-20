@@ -4,7 +4,7 @@
 
 ---
 
-# About REST
+## About REST
 
 **REST** (Rust-based Electronic Structure Theory) is the first electronic structure package built entirely in Rust.
 
@@ -12,9 +12,9 @@
 
 ---
 
-# Install
+## Install
 
-## Conda Install
+### Conda Install
 
 [![Conda](https://anaconda.org/restgroup/rest/badges/latest_release_date.svg)](https://anaconda.org/restgroup/rest)
 
@@ -24,9 +24,9 @@ conda activate rest
 conda install rest -c restgroup -c mokit -c conda-forge
 ```
 
-## Ready Image
+### Ready Image
 
-### Current Version: v2026.01
+#### Current Version: v2026.01
 
 | Item | Detail |
 |---|---|
@@ -35,31 +35,31 @@ conda install rest -c restgroup -c mokit -c conda-forge
 | **Docker Image** | `rest_2026.01.tar.xz` (~700 MB) — [Download](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/docker/rest_workshop_remote_260702.tar.xz) |
 | **Apptainer/Singularity Image** | `rest_2026.01.sif` (~700 MB) — [Download](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/apptainer/rest_workshop_remote_260704.sif) |
 
-### Historical Versions
+#### Historical Versions
 
-#### v2025.01 (2nd REST Workshop Edition)
+##### v2025.01 (2nd REST Workshop Edition)
 
 - **Docker:** `rest_2025.01.tar.gz` (~1.6 GB) — [Download](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/docker/rest_2025.01.tar.gz)
 - **Apptainer/Singularity:** `rest_2025.01.sif` (~1.6 GB) — [Download](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/apptainer/rest_2025.01.sif)
 
 ---
 
-# Quick Install
+## Quick Install
 
-### Conda
+#### Conda
 ```bash
 conda create -n rest python=3.11 -c conda-forge
 conda activate rest
 conda install rest -c restgroup -c mokit -c conda-forge
 ```
 
-### Docker
+#### Docker
 ```bash
 wget -O rest_2026.01.tar.xz "https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/docker/rest_workshop_remote_260702.tar.xz"
 docker load < rest_2026.01.tar.xz
 ```
 
-### Apptainer/Singularity
+#### Apptainer/Singularity
 ```bash
 wget -O rest_2026.01.sif "https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/apptainer/rest_workshop_remote_260704.sif"
 singularity exec rest_2026.01.sif rest --version
@@ -67,7 +67,7 @@ singularity exec rest_2026.01.sif rest --version
 
 ---
 
-# Citation
+## Citation
 
 > Li, Z.; Gao, T.; Wang, S.; et al. REST: Embracing the Rust Programming Language for Modern Electronic Structure Theory. *Chin. J. Chem. Phys.* **2025**. DOI: [10.1063/1674-0068/cjcp2510156](https://doi.org/10.1063/1674-0068/cjcp2510156)
 
