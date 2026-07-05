@@ -37,7 +37,7 @@ conda install rest -c restgroup -c mokit -c conda-forge
 
 #### Historical Versions
 
-##### v2025.01 (2nd REST Workshop Edition)
+**v2025.01 (2nd REST Workshop Edition)**
 
 - **Docker:** `rest_2025.01.tar.gz` (~1.6 GB) — [Download](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/docker/rest_2025.01.tar.gz)
 - **Apptainer/Singularity:** `rest_2025.01.sif` (~1.6 GB) — [Download](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/apptainer/rest_2025.01.sif)
