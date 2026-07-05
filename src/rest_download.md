@@ -34,7 +34,6 @@ conda install rest -c restgroup -c mokit -c conda-forge
 | **Release Date** | July 4, 2026 |
 | **Docker Image** | `rest_2026.01.tar.xz` (~700 MB) — [Download](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/docker/rest_workshop_remote_260702.tar.xz) |
 | **Apptainer/Singularity Image** | `rest_2026.01.sif` (~700 MB) — [Download](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/apptainer/rest_workshop_remote_260704.sif) |
-| **Storage** | Alibaba Cloud OSS |
 
 ### Historical Versions
 

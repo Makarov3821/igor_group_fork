@@ -32,9 +32,8 @@ conda install rest -c restgroup -c mokit -c conda-forge
 |---|---|
 | **版本** | 2026.01（第三届 REST Workshop） |
 | **发布日期** | 2026 年 7 月 4 日 |
-| **Docker 镜像** | `rest_2026.01.tar.xz`（约 700 MB）— [Download](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/docker/rest_workshop_remote_260702.tar.xz) |
-| **Apptainer/Singularity 镜像** | `rest_2026.01.sif`（约 700 MB）— [Download](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/apptainer/rest_workshop_remote_260704.sif) |
-| **存储** | 阿里云 OSS |
+| **Docker 镜像** | `rest_2026.01.tar.xz`（约 700 MB）— [下载](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/docker/rest_workshop_remote_260702.tar.xz) |
+| **Apptainer/Singularity 镜像** | `rest_2026.01.sif`（约 700 MB）— [下载](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/apptainer/rest_workshop_remote_260704.sif) |
 
 ### 历史版本
 
