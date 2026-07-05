@@ -1,96 +1,75 @@
-# 📦 REST Container Downloads
+# REST Downloads
 
-[← Back to Igor's Lab Homepage](./index.md)
-
-**Workshop Edition - November 2025**
+[← Back to Homepage](./index.md)
 
 ---
 
-## 🚀 About REST
+# About REST
 
-**REST** (Rust-based Electronic Structure Theory) is the world's first electronic structure package built entirely in Rust, developed by our research group. This page provides containerized versions of REST for easy deployment.
+**REST** (Rust-based Electronic Structure Theory) is the first electronic structure package built entirely in Rust.
 
-**Note**: For source code, compilation instructions, and detailed usage documentation, please visit our main repository:
-👉 **[gitee.com/restgroup](https://gitee.com/restgroup)**
-
----
-
-## 📋 Current Version: v2025.01
-
-**Release Information:**
-- **Version**: 2025.01 (Workshop Edition)
-- **Release Date**: November 28, 2025
-- **Workshop**: 2nd REST Workshop @ Fudan University (2025 November 29-30)
-- **Storage**: Hosted on Alibaba Cloud OSS
-- **Source Code**: [gitee.com/restgroup/rest](https://gitee.com/restgroup/rest)
+**Source code & docs:** [gitee.com/restgroup](https://gitee.com/restgroup)
 
 ---
 
-## ⬇️ Download Links and Counts
+# Install
 
-### Docker Container Image
-- **Filename**: `rest_2025.01.tar.gz`
-- **Size**: ~1.6 GB
-- **Format**: Docker image archive (.tar.gz)
-- **Download**: [rest_2025.01.tar.gz](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/docker/rest_2025.01.tar.gz)
+## Conda Install
 
-### Apptainer (Singularity) Container Image
-- **Filename**: `rest_2025.01.sif`
-- **Size**: ~1.6 GB
-- **Format**: Singularity/Apptainer container (.sif)
-- **Download**: [rest_2025.01.sif](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/apptainer/rest_2025.01.sif)
+[![Conda](https://anaconda.org/restgroup/rest/badges/latest_release_date.svg)](https://anaconda.org/restgroup/rest)
 
-### Conda
-![](https://anaconda.org/restgroup/rest/badges/latest_release_date.svg) 
-![](https://anaconda.org/restgroup/rest/badges/downloads.svg)
-
----
-
-## 🔧 Quick Installation Commands
-
-### Conda Installation
 ```bash
 conda create -n rest python=3.11 -c conda-forge
 conda activate rest
 conda install rest -c restgroup -c mokit -c conda-forge
 ```
 
-### Docker Installation
-```bash
-# Download and load Docker image
-wget -O rest_2025.01.tar.gz "https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/docker/rest_2025.01.tar.gz"
-docker load < rest_2025.01.tar.gz
-```
+## Ready Image
 
-### Apptainer/Singularity Installation
-```bash
-# Download Apptainer container
-wget -O rest_2025.01.sif "https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/apptainer/rest_2025.01.sif"
-singularity exec rest_2025.01.sif rest --version
-```
+### Current Version: v2026.01
 
-## 📚 Documentation & Support
+| Item | Detail |
+|---|---|
+| **Version** | 2026.01 (3rd REST Workshop Edition) |
+| **Release Date** | July 4, 2026 |
+| **Docker Image** | `rest_2026.01.tar.xz` (~700 MB) — [Download](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/docker/rest_workshop_remote_260702.tar.xz) |
+| **Apptainer/Singularity Image** | `rest_2026.01.sif` (~700 MB) — [Download](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/apptainer/rest_workshop_remote_260704.sif) |
+| **Storage** | Alibaba Cloud OSS |
 
-**For detailed documentation, tutorials, and source code:**
+### Historical Versions
 
-🔗 **[Main Repository: gitee.com/restgroup](https://gitee.com/restgroup)**
+#### v2025.01 (2nd REST Workshop Edition)
 
-**Quick Links:**
-- 📖 [REST Documentation](https://gitee.com/restgroup/rest/blob/master/README.md)
-- 🐛 [Issue Tracker](https://gitee.com/restgroup/rest/issues)
-- 📧 [Contact](mailto:igor1982@gitee.com)
+- **Docker:** `rest_2025.01.tar.gz` (~1.6 GB) — [Download](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/docker/rest_2025.01.tar.gz)
+- **Apptainer/Singularity:** `rest_2025.01.sif` (~1.6 GB) — [Download](https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/apptainer/rest_2025.01.sif)
 
 ---
 
-## 🤝 Citation
+# Quick Install
 
-If you use REST in your research, please cite:
+### Conda
+```bash
+conda create -n rest python=3.11 -c conda-forge
+conda activate rest
+conda install rest -c restgroup -c mokit -c conda-forge
+```
 
-> Zhiyun Li, Tianyi Gao, Shirong Wang, Sheng Bi, Rulin Feng, Zhenyu Zhu, Yilin Zhao, Wenjie Yan, Lingyue Yu, Qirui Gao, Zihan Lin, Jianming Wu, Igor Ying Zhang, Xin Xu. REST: Embracing the Rust Programming Language for Modern Electronic Structure Theory†[J].  *Chinese Journal of Chemical Physics* . DOI: 10.1063/1674-0068/cjcp2510156
+### Docker
+```bash
+wget -O rest_2026.01.tar.xz "https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/docker/rest_workshop_remote_260702.tar.xz"
+docker load < rest_2026.01.tar.xz
+```
 
-*This is a download-only page. For complete documentation, visit gitee.com/restgroup*
+### Apptainer/Singularity
+```bash
+wget -O rest_2026.01.sif "https://rest-package-image.oss-cn-hangzhou.aliyuncs.com/apptainer/rest_workshop_remote_260704.sif"
+singularity exec rest_2026.01.sif rest --version
+```
 
-[← Back to Igor's Lab Homepage](./index.md)
+---
 
-Last Updated: December 10, 2025
+# Citation
 
+> Li, Z.; Gao, T.; Wang, S.; et al. REST: Embracing the Rust Programming Language for Modern Electronic Structure Theory. *Chin. J. Chem. Phys.* **2025**. DOI: [10.1063/1674-0068/cjcp2510156](https://doi.org/10.1063/1674-0068/cjcp2510156)
+
+[← Back to Homepage](./index.md)
